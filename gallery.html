@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>
+            Gallery
+        </title>
+    </head>
+    <body style="text-align: center; background-image: url(https://th.bing.com/th/id/OIP.-73aWxWYXNcA4-o2F_-tYwHaFL?pid=ImgDet&rs=1); background-repeat: inherit;">
+        <h1 class="g">Gallery</h1><span><button id="home" onclick="home()">Home</button><button id="gallery" onclick="gallery()">Gallery</button><button id="about" onclick="about()">About</button></span>
+        <h1 style="font-size: 50px;" id="pg">Photo Gallery</h1>
+        <br>
+        <br>
+        <img src="DSC00158.JPG"><img src="DSC00200.JPG"><img src="DSC00980.JPG"><img src="DSC00589.JPG"><img src="DSC00981.JPG">
+        <img src="DSC00208.JPG"><img src="DSC00412.JPG">
+        <img src="DSC00983.JPG"><img src="DSC02445.JPG">
+        <img src="DSC02464.JPG"><img src="DSC04510.JPG">
+        <img src="DSC01103.JPG"><img src="DSC02445.JPG"><img src="DSC01283.JPG">
+
+    </body>
+    <style>
+        img{
+            width: 25%;
+        }
+        .g{
+            color: white;
+            margin-right: -40px;
+            margin-left: -1100px;
+            font-size: 40px;
+        }
+        #home, #gallery, #about{
+            margin-right: 50px;
+            margin-top: -60px;
+            height: 5%;
+            font-size: 20px;
+            background-color: pink;
+        }
+        #home{
+            margin-left: 875px;
+        }
+        #pg{
+            color: white;
+        }
+    </style>
+    <script>
+          function home(){
+            window.location = "Index.html";
+        }
+        function about(){
+            window.location = "about.html";
+        }
+        function gallery(){
+            window.location = "gallery.html";
+        }
+    </script>
+</html>

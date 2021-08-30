@@ -1,0 +1,88 @@
+<html>
+    <head>
+        <title>
+            About
+        </title>
+    </head>
+    <body style="text-align: center;">
+        <h1>About</h1><span><button id="home" onclick="home()">Home</button><button id="gallery" onclick="gallery()">Gallery</button><button id="about" onclick="about()">About</button></span>
+        <br>
+        <br>
+        <h4 class="baa">Balakrishnan Erival</h4>
+        <img id="Baa" src= "Baa.png" class="rotate_image_180">
+        <h4>बालाकृष्णन इरेवल, एक व्यक्ति जो दूसरों
+             की परवाह करता है । वह अपने परिवार 
+             का भी ख्याल रखता है ।
+             वह अपने परिवार की जरूरतों को पूरा
+              करने के लिए एक कंपनी में कड़ी मेहनत करता है</h4>
+            <br>
+            <br>
+            <h4 class="ai">Saroj Erival</h4>
+        <img id="ai" src= "DSC04752.JPG" >
+        <h4>सरोज इरेवल, मेरी प्यारी नानीजी।
+            वह मेरी बहुत अच्छी देखभाल करती है ।
+            वह बहुत स्वादिष्ट भाजी बनाती है।मेरे साथ
+             वह अपने स्वास्थ्य का भी ध्याण रखती है।</h4>
+              
+              
+              
+    </body>
+    <style>
+        body{
+            background-image: url("https://th.bing.com/th/id/OIP.-73aWxWYXNcA4-o2F_-tYwHaFL?pid=ImgDet&rs=1");
+            background-repeat: inherit;
+        }
+        h1{
+            color: white;
+            margin-right: -40px;
+            margin-left: -1200px;
+            font-size: 40px;
+        }
+        .baa{
+            font-size: 40;
+        }
+        #home, #gallery, #about{
+            margin-right: 50px;
+            margin-top: -60px;
+            height: 5%;
+            font-size: 20px;
+            background-color: pink;
+        }
+        #home{
+            margin-left: 875px;
+        }
+        h4{
+            font-size: 25px;
+            color: white;
+            font-weight: 800;
+            line-break: auto;
+        }
+        #Baa{
+            width: 25%; 
+            margin-top: 20px;
+        }
+        .rotate_image_180{
+            -webkit-transform: rotate(270deg) ;
+            -o-transform: rotate(270deg);
+            transform: rotate(270deg);
+        }
+        #ai{
+            width: 25%;
+        }
+        .ai{
+            font-size: 40px;
+        }
+
+    </style>
+    <script>
+        function home(){
+            window.location = "Index.html";
+        }
+        function about(){
+            window.location = "about.html";
+        }
+        function gallery(){
+            window.location = "gallery.html";
+        }
+    </script>
+</html>
